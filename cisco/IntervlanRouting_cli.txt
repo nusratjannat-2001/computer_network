@@ -1,0 +1,289 @@
+switch1.............
+
+Switch>en
+Switch#con
+Switch#confi
+Switch#configure ter
+Switch#configure terminal 
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#inter
+Switch(config)#interface fast
+Switch(config)#interface fastEthernet 0/1
+Switch(config-if)#swit
+Switch(config-if)#switchport mode acc
+Switch(config-if)#switchport mode access 
+Switch(config-if)#swith
+Switch(config-if)#switch
+Switch(config-if)#switchport acce
+Switch(config-if)#switchport access vla
+Switch(config-if)#switchport access vlan 10
+% Access VLAN does not exist. Creating vlan 10
+Switch(config-if)#exit
+Switch(config)#inter
+Switch(config)#interface fast
+Switch(config)#interface fastEthernet 0/2
+Switch(config-if)#swi
+Switch(config-if)#switchport mode acce
+Switch(config-if)#switchport mode access 
+Switch(config-if)#swit
+Switch(config-if)#switchport acce
+Switch(config-if)#switchport access vlan 20
+% Access VLAN does not exist. Creating vlan 20
+Switch(config-if)#exit
+Switch(config)#inter
+Switch(config)#interface mode
+Switch(config)#interface mode acc
+Switch(config)#interface fas
+Switch(config)#interface fastEthernet 0/3
+Switch(config-if)#switc
+Switch(config-if)#switchport mod
+Switch(config-if)#switchport mode acc
+Switch(config-if)#switchport mode access 
+Switch(config-if)#swit
+Switch(config-if)#switchport acc
+Switch(config-if)#switchport access vla
+Switch(config-if)#switchport access vlan 30
+% Access VLAN does not exist. Creating vlan 30
+Switch(config-if)#exit
+Switch(config)#inter
+Switch(config)#interface fas
+Switch(config)#interface fastEthernet 0/4
+Switch(config-if)#swit
+Switch(config-if)#switchport mode trun
+Switch(config-if)#switchport mode trunk 
+
+Switch(config-if)#
+%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/4, changed state to down
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/4, changed state to up
+
+Switch(config-if)#do write memory
+Building configuration...
+[OK]
+Switch(config-if)#
+
+
+
+
+
+
+switch2......
+
+Switch>en
+Switch#confi
+Switch#configure ter
+Switch#configure terminal 
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#inter
+Switch(config)#interface fas
+Switch(config)#interface fastEthernet 0/1
+Switch(config-if)#swi
+Switch(config-if)#switchport mode
+Switch(config-if)#switchport mode acc
+Switch(config-if)#switchport mode access 
+Switch(config-if)#swit
+Switch(config-if)#switchport acc
+Switch(config-if)#switchport access vla
+Switch(config-if)#switchport access vlan 10
+% Access VLAN does not exist. Creating vlan 10
+Switch(config-if)#exit
+Switch(config)#inter
+Switch(config)#interface fas
+Switch(config)#interface fastEthernet 0/2
+Switch(config-if)#swit
+Switch(config-if)#switchport mode acc
+Switch(config-if)#switchport mode access 
+Switch(config-if)#swit
+Switch(config-if)#switchport acc
+Switch(config-if)#switchport access vla20
+                                       ^
+% Invalid input detected at '^' marker.
+	
+Switch(config-if)#switchport access vla
+Switch(config-if)#switchport access vlan 20
+% Access VLAN does not exist. Creating vlan 20
+Switch(config-if)#exit
+Switch(config)#inter
+Switch(config)#interface fas
+Switch(config)#interface fastEthernet 0/3
+Switch(config-if)#swit
+Switch(config-if)#switchport mod
+Switch(config-if)#switchport mode acc
+Switch(config-if)#switchport mode access 
+Switch(config-if)#swit
+Switch(config-if)#switchport acc
+Switch(config-if)#switchport access vla
+Switch(config-if)#switchport access vlan 30
+% Access VLAN does not exist. Creating vlan 30
+Switch(config-if)#exit
+Switch(config)#
+Switch(config)#inter
+Switch(config)#interface fast
+Switch(config)#interface fastEthernet 0/6
+Switch(config-if)#swit
+Switch(config-if)#switchport mod
+Switch(config-if)#switchport mode acc
+Switch(config-if)#switchport mode access 
+Switch(config-if)#swi
+Switch(config-if)#switchport acc
+Switch(config-if)#switchport access vla
+Switch(config-if)#switchport access vlan 10
+Switch(config-if)#exit
+Switch(config)#inter
+Switch(config)#interface fas
+Switch(config)#interface fastEthernet 0/7
+Switch(config-if)#swit
+Switch(config-if)#switchport mo
+Switch(config-if)#switchport mode acc
+Switch(config-if)#switchport mode access 
+Switch(config-if)#swit
+Switch(config-if)#switchport acce
+Switch(config-if)#switchport access vla
+Switch(config-if)#switchport access vlan 20
+Switch(config-if)#exi
+Switch(config-if)#exit 
+Switch(config)#inter
+Switch(config)#interface fas
+Switch(config)#interface fastEthernet 0/8
+Switch(config-if)#swit
+Switch(config-if)#switchport mod
+Switch(config-if)#switchport mode acc
+Switch(config-if)#switchport mode access 
+Switch(config-if)#swit
+Switch(config-if)#switchport acc
+Switch(config-if)#switchport access vla
+Switch(config-if)#switchport access vlan 30
+Switch(config-if)#do write memory
+Building configuration...
+[OK]
+Switch(config-if)#
+
+
+switch3.....
+
+Switch>en
+Switch#confi
+Switch#configure ter
+Switch#configure terminal 
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#inter
+Switch(config)#interface faas
+Switch(config)#interface fas
+Switch(config)#interface fastEthernet 0/1
+Switch(config-if)#swit
+Switch(config-if)#switchport mod
+Switch(config-if)#switchport mode acc
+Switch(config-if)#switchport mode access 
+Switch(config-if)#swi
+Switch(config-if)#switchport acc
+Switch(config-if)#switchport access vla
+Switch(config-if)#switchport access vlan 10
+% Access VLAN does not exist. Creating vlan 10
+Switch(config-if)#exit
+Switch(config)#inter
+Switch(config)#interface fas
+Switch(config)#interface fastEthernet 0/2
+Switch(config-if)#swit
+Switch(config-if)#switchport mo
+Switch(config-if)#switchport mode acce
+Switch(config-if)#switchport mode access 
+Switch(config-if)#swit
+Switch(config-if)#switchport acc
+Switch(config-if)#switchport access vlan 20
+% Access VLAN does not exist. Creating vlan 20
+Switch(config-if)#exit
+Switch(config)#inter
+Switch(config)#interface fas
+Switch(config)#interface fastEthernet 0/3
+Switch(config-if)#swit
+Switch(config-if)#switchport mo
+Switch(config-if)#switchport mode acce
+Switch(config-if)#switchport mode access 
+Switch(config-if)#swit
+Switch(config-if)#switchport acc
+Switch(config-if)#switchport access vla
+Switch(config-if)#switchport access vlan 30
+% Access VLAN does not exist. Creating vlan 30
+Switch(config-if)#exit
+Switch(config)#do write me
+Switch(config)#do write memo
+Switch(config)#do write memory
+Building configuration...
+[OK]
+Switch(config)#
+Switch(config)#interface fastethernet 0/5
+Switch(config-if)#switchport mode trunk
+
+Switch(config-if)#
+%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/5, changed state to down
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/5, changed state to up
+do write memory
+Building configuration...
+[OK]
+
+
+router.....
+
+Router>en
+Router#confi
+Router#configure ter
+Router#configure terminal 
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#enab
+Router(config)#inter
+Router(config)#interface giga
+Router(config)#interface gigabitEthernet 0/0
+Router(config-if)#ip add
+Router(config-if)#ip address 192.168.10.1 255.255.255.0
+Router(config-if)#no sh
+Router(config-if)#no shutdown 
+
+Router(config-if)#
+%LINK-5-CHANGED: Interface GigabitEthernet0/0, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
+
+Router(config-if)#exit
+Router(config)#inter
+Router(config)#interface giga
+Router(config)#interface gigabitEthernet 0/1
+Router(config-if)#ip add
+Router(config-if)#ip address 192.168.20.1 255.255.255.0
+Router(config-if)#no shu
+Router(config-if)#no shutdown 
+
+Router(config-if)#
+%LINK-5-CHANGED: Interface GigabitEthernet0/1, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up
+
+Router(config-if)#exit
+Router(config)#inter
+Router(config)#interface giga
+Router(config)#interface gigabitEthernet 0/3
+%Invalid interface type and number
+Router(config)#interface gigabitEthernet 0/2
+Router(config-if)#ip add
+Router(config-if)#ip address 192.168.30.1 255.255.255.0
+Router(config-if)#no shu
+Router(config-if)#no shutdown 
+
+Router(config-if)#
+%LINK-5-CHANGED: Interface GigabitEthernet0/2, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to up
+
+Router(config-if)#exit
+Router(config)#rou
+Router(config)#router rip
+Router(config-router)#net
+Router(config-router)#network 192.168.10.0
+Router(config-router)#network 192.168.20.0
+Router(config-router)#network 192.168.30.0
+Router(config-router)#do wr
+Router(config-router)#do write memory
+Building configuration...
+[OK]
+Router(config-router)#
+Router#
