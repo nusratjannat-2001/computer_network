@@ -10,7 +10,7 @@ class smtpGmail {
 
   public static void main(String argv[]) throws Exception {
     String user = "s2012176145@ru.ac.bd";
-    String pass = "SGVhcnQtYmVhdEAyMDAx"; // Heart-beat@2001 ar encrypt code
+    String pass = "SGVhcnQtYmVhdEAyMDAx"; 
     
     String username =new String(Base64.getEncoder().encode(user.getBytes()));
     String password =pass;//new String(Base64.getEncoder().encode(pass.getBytes()));password encrypted kore dici tai sudu pass likheci
